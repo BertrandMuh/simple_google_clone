@@ -1,0 +1,172 @@
+.logo {
+    width: 120px;
+    position: relative;
+    border: 0;
+}
+
+.logo>img {
+    width: 100%;
+}
+
+.advanced {
+    color: red;
+    font-size: 25px;
+    border-bottom: 1px solid rgb(238, 236, 236);
+    height: 40px;
+    width: 100%;
+}
+
+#advanced {
+    flex-direction: row;
+    height: 17px;
+
+}
+
+.advanced>#page-title {
+    margin-left: 50px;
+}
+
+#google-advanced {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh
+}
+
+#google-advanced>div {
+    width: 100%;
+    display: flex;
+}
+
+#google-advanced>div>* {
+    margin: 15px;
+}
+
+#google-advanced>div>form {
+    width: 90%;
+}
+
+#google-advanced>.footer {
+    background: rgb(244, 244, 244);
+    width: 100%;
+    height: auto;
+}
+
+#google-advanced>.footer>* {
+    position: relative
+}
+
+#advanced-form {
+    height: 85vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#advanced-form>#form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    max-width: none;
+    width: 100%;
+    height: auto;
+}
+
+#form>* {
+    display: grid;
+    grid-template-columns: 170px 40vw auto;
+    align-items: center;
+    margin-left: 50px;
+    gap: 20px;
+    width: 90%;
+}
+
+#form>:nth-child(1) p {
+    grid-column: 2 span;
+}
+
+.btn-div {
+    grid-column: 2 span;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#advanced-btn {
+    background: rgb(32, 131, 251);
+    color: white;
+    width: max-content;
+    border: 0;
+    outline: none;
+    padding: 8px 12px
+}
+
+#form>div>* {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#form span {
+    color: gray;
+    font-size: 14px;
+}
+
+@media(max-width:900px) {
+    #form span {
+        display: none;
+    }
+
+    #form>* {
+        display: grid;
+        grid-template-columns: 170px auto;
+        margin-left: 20px;
+    }
+
+    .advanced>#page-title {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:640px) {
+    #form span {
+        display: none;
+    }
+
+    #form>* {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 5px;
+    }
+}
+
+@media(max-width:350px) {
+    .advanced>#page-title {
+        font-size: 10vw;
+    }
+
+    .advanced {
+        height: 15vw;
+    }
+
+    #advanced-header>nav {
+        align-items: flex-end;
+    }
+
+    #advanced-header>nav>div {
+        flex-direction: row;
+    }
+
+    #advanced-header a {
+        font-size: 5vw;
+    }
+
+    #advanced-header .logo {
+
+        display: flex;
+        align-items: center;
+    }
+}

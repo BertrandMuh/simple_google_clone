@@ -1,0 +1,27 @@
+#images {
+    position: absolute;
+    color: blue;
+    font-size: 17px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.image.nav-div {
+    justify-content: flex-end;
+}
+
+.image.nav-div>nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media(max-width:300px) {
+    .image-page-nav>* {
+        flex-direction: row;
+    }
+
+    .image-page-nav>*>a:hover {
+        background: white;
+    }
+}

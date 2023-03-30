@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh
+}
+
+.logo {
+    position: relative;
+}
+
+nav,
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer {
+    background: rgb(244, 244, 244);
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+.form {
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 90%;
+}
+
+form>.input-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0 15px;
+}
+
+form {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    width: 95%;
+    height: 110px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.button-div>* {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: rgb(245, 245, 245);
+    border: 0;
+    max-height: 40px;
+    font-size: 16px;
+}
+
+.lucky {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+
+}
+
+#lucky>* {
+    color: black;
+    /* padding: 10px 0; */
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button-div>*:hover {
+    box-shadow: 0 0 2px lightgray;
+    cursor: pointer;
+}
+
+.input-div {
+    border: 1px solid rgb(236, 233, 233);
+}
+
+.input-div:hover {
+    box-shadow: 0 0 5px lightgray;
+}
+
+.fa.fa-search,
+.fa.fa-camera,
+.fa.fa-microphone {
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa.fa-search {
+    color: lightgray;
+
+}
+
+.input-div>* {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div>input {
+    width: 80%;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+}
+
+
+#main>div {
+    width: 100%;
+    display: flex;
+}
+
+#main>div>* {
+    margin: 15px;
+}
+
+#main>div>form {
+    width: 90%;
+}
+
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width:805px) {
+    #main>.footer {
+        height: 80px;
+        position: relative;
+    }
+
+    .footer>* {
+        /* width: 100%; */
+        text-align: center;
+        height: max-content;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer>:nth-child(2) {
+        top: 0;
+        left: 40%;
+    }
+
+    .footer>:nth-child(3) {
+        right: 0;
+    }
+
+}
+
+@media(max-width:560px) {
+    #main>.footer {
+        height: auto;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .footer>* {
+        position: relative;
+    }
+
+    .footer>:nth-child(2) {
+        order: -1;
+        left: 0;
+    }
+
+}
+
+@media(max-width:390px) {
+    .button-div {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:350px) {
+    #main {
+        gap: 10px
+    }
+
+
+
+    #main>div>* {
+        margin: 10px 5px;
+    }
+
+    #main>.footer {
+        height: auto;
+        position: relative;
+        flex-direction: column;
+    }
+
+    #main>.footer>* {
+        margin: 5px 15px;
+        gap: 10px;
+    }
+
+    .footer>* {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .footer>:nth-child(2) {
+        order: -1;
+        left: 0;
+    }
+
+    .logo>img {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media(max-width:300px) {
+    nav {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    nav>* {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav>*>a {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav>*>a:hover {
+        background: rgb(251, 236, 208);
+
+    }
+}
