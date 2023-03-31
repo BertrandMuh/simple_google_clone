@@ -23,7 +23,8 @@ nav,
     width: 100%;
 }
 
-.footer {
+.footer,
+.button-div>* {
     background: rgb(244, 244, 244);
 }
 
@@ -68,29 +69,11 @@ form {
 .button-div>* {
     padding: 10px 15px;
     border-radius: 5px;
-    background: rgb(245, 245, 245);
     border: 0;
     max-height: 40px;
     font-size: 16px;
 }
 
-.lucky {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    padding: 0;
-
-}
-
-#lucky>* {
-    color: black;
-    margin: 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
 
 .button-div>*:hover {
     box-shadow: 0 0 2px lightgray;
@@ -149,7 +132,7 @@ form {
     margin: 15px;
 }
 
-#main>div>form {
+form {
     width: 90%;
 }
 
@@ -218,8 +201,6 @@ a:hover {
     #main {
         gap: 10px
     }
-
-
 
     #main>div>* {
         margin: 10px 5px;
