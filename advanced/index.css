@@ -26,6 +26,17 @@
     margin-left: 50px;
 }
 
+input {
+    padding: 0 10px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid blue;
+    border-radius: 2px;
+    box-shadow: inset 0px 1px 2px gray;
+}
+
 #google-advanced {
     display: flex;
     justify-content: space-between;
@@ -59,7 +70,7 @@
 }
 
 #advanced-form {
-    height: 85vh;
+    height: 83vh;
     display: flex;
     justify-content: flex-start;
 }
@@ -165,7 +176,6 @@
     }
 
     #advanced-header .logo {
-
         display: flex;
         align-items: center;
     }

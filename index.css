@@ -116,6 +116,11 @@ form {
     align-items: center;
 }
 
+.fa.fa-camera,
+.fa.fa-microphone {
+    color: rgb(0, 115, 255)
+}
+
 .fa.fa-search {
     color: lightgray;
 
@@ -272,7 +277,7 @@ a:hover {
     }
 
     nav>*>a:hover {
-        background: rgb(251, 236, 208);
+        background: rgb(244, 244, 244);
 
     }
 }
