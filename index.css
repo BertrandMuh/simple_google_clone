@@ -28,6 +28,10 @@ nav,
     background: rgb(244, 244, 244) !important;
 }
 
+.button-div:-webkit-any(input) {
+    appearance: none;
+}
+
 nav a {
     margin: 0 10px;
 }
