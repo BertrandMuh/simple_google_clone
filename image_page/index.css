@@ -16,12 +16,22 @@
     justify-content: flex-end;
 }
 
-@media(max-width:300px) {
+@media(max-width:410px) {
     .image-page-nav>* {
         flex-direction: row;
     }
 
     .image-page-nav>*>a:hover {
-        background: white !important;
+        background: white;
+    }
+
+    .footer>:nth-child(1) {
+        display: none;
+    }
+}
+
+@media(min-width:250px) {
+    .footer>:nth-child(2) {
+        flex-direction: row;
     }
 }
