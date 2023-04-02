@@ -16,6 +16,21 @@
     position: relative;
 }
 
+#search-bar {
+    background: white;
+}
+
+.icons-div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-btn {
+    background: rgb(244, 244, 244) !important;
+}
+
 nav,
 .footer {
     display: flex;

@@ -35,14 +35,18 @@
             </div>
             <form action="https://www.google.com/search" method="get" rel="nonreferrer">
                 <div class="input-div">
-                    <i class='fa fa-search'></i>
-                    <input class="search-bar" type="search" name='q' placeholder="search..." />
-                    <i class='fa fa-microphone'></i>
-                    <i class='fa fa-camera'></i>
+                    <label for="search-bar">
+                        <i class='fa fa-search'></i>
+                    </label>
+                    <input id="search-bar" class="search-bar" type="text" name='q' autofocus />
+                    <div class="icons-div">
+                        <i class='fa fa-microphone'></i>
+                        <i class='fa fa-camera'></i>
+                    </div>
                 </div>
                 <div class="button-div">
-                    <input type="submit" value="Google Search">
-                    <input type="submit" name="btnI" value="I'm Feeling Lucky">
+                    <input type="submit" value="Google Search" class="input-btn">
+                    <input type="submit" name="btnI" value="I'm Feeling Lucky" class="input-btn">
                 </div>
             </form>
 

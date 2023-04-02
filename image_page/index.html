@@ -30,10 +30,14 @@
             </div>
             <form action="https://www.google.com/search" method="get" rel="nonreferrer">
                 <div class="input-div">
-                    <i class='fa fa-search'></i>
-                    <input class="search-bar" type="search" name='q' placeholder="search..." />
-                    <i class='fa fa-microphone'></i>
-                    <i class='fa fa-camera'></i>
+                    <label for="search-bar">
+                        <i class='fa fa-search'></i>
+                    </label>
+                    <input id="search-bar" class="search-bar" type="text" name='q' autofocus />
+                    <div class="icons-div">
+                        <i class='fa fa-microphone'></i>
+                        <i class='fa fa-camera'></i>
+                    </div>
                 </div>
                 <input type="text" name="tbm" value="isch" placeholder="image" hidden />
                 <div class="button-div">
