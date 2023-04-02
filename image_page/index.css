@@ -1,6 +1,6 @@
 #images {
     position: absolute;
-    color: blue;
+    color: blue !important;
     font-size: 17px;
     bottom: 5px;
     right: 5px;
@@ -22,6 +22,6 @@
     }
 
     .image-page-nav>*>a:hover {
-        background: white;
+        background: white !important;
     }
 }

@@ -25,7 +25,7 @@ nav,
 
 .footer,
 .button-div>* {
-    background: rgb(244, 244, 244);
+    background: rgb(244, 244, 244) !important;
 }
 
 nav a {
@@ -76,16 +76,17 @@ form {
 
 
 .button-div>*:hover {
-    box-shadow: 0 0 2px lightgray;
+    box-shadow: 0 0 2px lightgray !important;
     cursor: pointer;
+    color: black !important;
 }
 
 .input-div {
-    border: 1px solid rgb(236, 233, 233);
+    border: 1px solid rgb(236, 233, 233) !important;
 }
 
 .input-div:hover {
-    box-shadow: 0 0 5px lightgray;
+    box-shadow: 0 0 5px lightgray !important;
 }
 
 .fa.fa-search,

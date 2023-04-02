@@ -9,9 +9,9 @@
 }
 
 .advanced {
-    color: red;
+    color: red !important;
     font-size: 25px;
-    border-bottom: 1px solid rgb(238, 236, 236);
+    border-bottom: 1px solid rgb(238, 236, 236) !important;
     height: 40px;
     width: 100%;
 }
@@ -32,9 +32,9 @@ input {
 }
 
 input:focus {
-    border: 1px solid blue;
+    border: 1px solid blue !important;
     border-radius: 2px;
-    box-shadow: inset 0px 1px 2px gray;
+    box-shadow: inset 0px 1px 2px gray !important;
 }
 
 #google-advanced {
@@ -60,7 +60,7 @@ form {
 }
 
 #google-advanced>.footer {
-    background: rgb(244, 244, 244);
+    background: rgb(244, 244, 244) !important;
     width: 100%;
     height: auto;
 }
@@ -106,8 +106,8 @@ form>:nth-child(1) p {
 }
 
 #advanced-btn {
-    background: rgb(32, 131, 251);
-    color: white;
+    background: rgb(32, 131, 251) !important;
+    color: white !important;
     width: max-content;
     border: 0;
     outline: none;
