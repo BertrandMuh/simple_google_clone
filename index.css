@@ -29,7 +29,8 @@
 
 #lucky-btn,
 #search-btn {
-    background: rgb(244, 244, 244) !important;
+    background: rgb(244, 244, 244);
+    color: black;
 }
 
 nav,
@@ -39,9 +40,8 @@ nav,
     width: 100%;
 }
 
-.footer,
-.button-div>* {
-    background: rgb(244, 244, 244) !important;
+.footer {
+    background: rgb(244, 244, 244);
 }
 
 
@@ -95,15 +95,14 @@ form {
 .button-div>*:hover {
     box-shadow: 0 0 2px lightgray !important;
     cursor: pointer;
-    color: black !important;
 }
 
 .input-div {
-    border: 1px solid rgb(236, 233, 233) !important;
+    border: 1px solid rgb(236, 233, 233);
 }
 
 .input-div:hover {
-    box-shadow: 0 0 5px lightgray !important;
+    box-shadow: 0 0 5px lightgray;
 }
 
 .fa.fa-search,
