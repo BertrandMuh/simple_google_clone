@@ -27,7 +27,8 @@
     align-items: center;
 }
 
-.input-btn {
+#lucky-btn,
+#search-btn {
     background: rgb(244, 244, 244) !important;
 }
 
@@ -43,9 +44,6 @@ nav,
     background: rgb(244, 244, 244) !important;
 }
 
-.button-div:-webkit-any(input) {
-    appearance: none;
-}
 
 nav a {
     margin: 0 10px;
@@ -86,11 +84,11 @@ form {
 }
 
 .button-div>* {
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-radius: 5px;
     border: 0;
     max-height: 40px;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 
