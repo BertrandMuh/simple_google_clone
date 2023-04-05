@@ -16,7 +16,7 @@ Here is an overview of all the tools used to build the site:
 So far, the app can be run on Microsoft Edge, Chrome and Firefox
 
 #
-<!-- Here is the link to my link to my hosted working app => [Trading-Avenue](https://trading-avenue.onrender.com/)
+Here is the link to my youtube video presentation => [Google clone demo](https://youtu.be/C6vRtFXNL_c)
 
 Thank you for visiting! -->
 
