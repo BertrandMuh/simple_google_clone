@@ -18,6 +18,6 @@ So far, the app can be run on Microsoft Edge, Chrome and Firefox
 #
 Here is the link to my youtube video presentation => [Google clone demo](https://youtu.be/C6vRtFXNL_c)
 
-Thank you for visiting! -->
+Thank you for watching!
 
 
